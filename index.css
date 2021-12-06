@@ -139,6 +139,7 @@ a {
     background-color: white;
     color: black;
     text-decoration: underline;
+    
 }
 
 .menu-bar .menu-box-1>ul>li>a::after {
@@ -146,12 +147,9 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
+    display: block;
     width: 0;
     height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
     transition: width .3s;
-}
-
-.menu-bar .menu-box-1>ul>li:hover>a::after {
-    width: 100%;
 }
